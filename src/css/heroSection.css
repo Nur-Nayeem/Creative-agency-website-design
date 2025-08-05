@@ -1,0 +1,156 @@
+.hero-container {
+    margin: 48px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    z-index: 1000;
+}
+
+.hero-left h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.hero-left h1 span {
+    color: var(--color-primary-2);
+}
+
+.hero-deails {
+    max-width: 378px;
+    color: var(--text-grey);
+    font-size: 1.15rem;
+    margin: 1.5rem 0;
+}
+
+.arrow-icon {
+    margin-left: 1rem;
+}
+
+.hero-box {
+    position: relative;
+}
+
+.hero-box .color-box {
+    position: absolute;
+}
+
+.hero-box .blue-box {
+    max-width: 713px;
+    top: -40px;
+    left: 10%;
+    z-index: 10;
+
+}
+
+.hero-box .yellow-box {
+    top: 15%;
+    left: -30%;
+    z-index: 20;
+}
+
+
+.hero-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#FF9800 0% 25%,
+            #FF3366 25% 50%,
+
+            #5C4BFF 50% 100%);
+    position: relative;
+    z-index: 101;
+    bottom: 220px;
+    left: -50px;
+    transform: rotate(320deg);
+}
+
+.hero-chart::before {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background: #ffc800;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.hero-chart div {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: #FE9602;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.hero-chart .golla-top {
+    right: 0;
+}
+
+.hero-chart .golla-right {
+    bottom: 0;
+    right: 0;
+}
+
+.hero-chart .golla-left {
+    top: 64px;
+    left: -32px;
+}
+
+.hero-box img {
+    position: relative;
+    ;
+    max-width: 628.8px;
+    z-index: 100;
+}
+
+.layer-box {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    background-color: var(--color-secondary-2);
+    color: white;
+    z-index: 102;
+    border: none;
+    border-radius: 2rem;
+    font-size: 2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 35%;
+}
+
+.arrow-icon {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-container {
+        flex-direction: column-reverse;
+    }
+
+    .hero-box img {
+        width: 100%;
+    }
+
+    .hero-box .blue-box {
+        max-width: 100%;
+        top: -40px;
+        left: 0;
+    }
+
+    .hero-chart {
+        left: 0;
+        bottom: 100px;
+    }
+}
