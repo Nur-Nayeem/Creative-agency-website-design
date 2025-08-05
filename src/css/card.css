@@ -50,6 +50,7 @@
     background: #F3F4F6;
     border: none;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -59,7 +60,7 @@
 }
 
 .card:hover .fire-icon {
-    color: var(--color-primary);
+    color: var(--hover-bg-color);
 }
 
 .card:hover .card-icon {
