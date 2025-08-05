@@ -1,5 +1,8 @@
 import React from 'react'
 import '../css/navSection.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 function Navbar() {
     return (
         <nav className='nav-section'>
@@ -11,7 +14,10 @@ function Navbar() {
                 <li><a href="#works">Works</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
-            <button className='btn-primary'>Contant us</button>
+            <button className='menue-bar'>
+                <FontAwesomeIcon className='menu' icon={faBars} />
+            </button>
+            <button className='btn-primary contct-btn'>Contant us</button>
         </nav>
     )
 }

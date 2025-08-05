@@ -9,7 +9,7 @@ function Hero() {
     return (
         <section className='hero-container'>
             <div className='hero-left'>
-                <h1>Make your business <br /><span>more powerful</span><br />with us</h1>
+                <h1>Make your business <span>more powerful</span> with us</h1>
                 <p className='hero-deails'>We provide various services to make your business grow and get bigger. Your satisfaction is our first priority.</p>
                 <button className='btn-primary'>
                     Get Started

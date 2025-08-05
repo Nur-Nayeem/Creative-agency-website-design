@@ -33,9 +33,27 @@
     font-weight: 600;
 }
 
+.menue-bar {
+    display: none;
+}
+
 
 @media screen and (max-width: 768px) {
-    .nav-items {
+
+    .nav-items,
+    .contct-btn {
         display: none;
     }
+
+    .menue-bar {
+        display: block;
+        color: #00113B;
+        border: none;
+        background: transparent;
+    }
+
+    .menu {
+        font-size: 2.5rem;
+    }
+
 }
