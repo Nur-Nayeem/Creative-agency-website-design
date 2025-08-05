@@ -1,0 +1,67 @@
+.card {
+    background-color: white;
+    max-width: 382px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 44px 30px;
+    border-radius: 1.25rem;
+    box-shadow: -10px 30px 70px rgba(219, 222, 225, 0.4);
+    cursor: pointer;
+    transition: 0.45s ease;
+}
+
+.card-icon {
+    width: 96px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--hover-bg-color);
+    border-radius: 50%;
+    box-shadow: 0 15px 30px rgba(76, 64, 247, 0.5);
+
+}
+
+.fire-icon {
+    color: white;
+    font-size: 2.75rem;
+}
+
+.card-content {
+    margin: 44px 0;
+}
+
+.card-content h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-content p {
+    font-size: 1.15rem;
+}
+
+
+.card-btn {
+    width: 45px;
+    height: 45px;
+    background: #F3F4F6;
+    border: none;
+    border-radius: 50%;
+}
+
+.card:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: -10px 30px 70px rgba(76, 64, 247, 0.5);
+    color: white;
+}
+
+.card:hover .fire-icon {
+    color: var(--color-primary);
+}
+
+.card:hover .card-icon {
+    background-color: white;
+}

@@ -1,0 +1,33 @@
+.services-container {
+    text-align: center;
+}
+
+.section-title {
+    color: var(--color-tertiary-3);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+@media screen and (max-width:993px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+}
