@@ -48,7 +48,7 @@ function OurServices() {
     return (
         <div className='services-container'>
             <h4 className='section-title'>Our Services</h4>
-            <h2 className='sub-title'>The various services we provide to make your business more powerful</h2>
+            <h3 className='sub-title'>The various services we provide to make your business more powerful</h3>
             <div className='card-container'>
                 {
                     services.map((item, index) => {
