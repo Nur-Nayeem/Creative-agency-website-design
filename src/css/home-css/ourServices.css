@@ -1,14 +1,18 @@
-.services-container {
+.container {
+    margin-top: 100px;
+}
+
+.section-header {
     text-align: center;
 }
 
-.services-container .section-title {
+.section-title {
     color: var(--color-tertiary-3);
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.services-container .sub-title {
+.sub-title {
     font-size: 3rem;
     font-weight: 700;
     margin: 2rem 0;
@@ -34,7 +38,7 @@
 }
 
 @media screen and (max-width:767.98px) {
-    .services-container .sub-title {
+    .sub-title {
         font-size: 2rem;
         font-weight: 600;
     }

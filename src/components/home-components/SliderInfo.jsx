@@ -49,7 +49,7 @@ const Slider = ({ slides }) => {
         currentIndex === slides.length - 1 ? setCurrentIndex(0) : setCurrentIndex(currentIndex + 1)
     }
     return (
-        <div className='slideBox'>
+        <div className='slideBox '>
             <FontAwesomeIcon className='icons leftIcon' icon={faCircleArrowLeft} onClick={previousSLidde} />
 
             <div className='middle-content'>

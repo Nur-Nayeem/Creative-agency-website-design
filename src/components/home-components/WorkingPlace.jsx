@@ -36,9 +36,11 @@ const places = [
 
 const WorkingPlace = () => {
     return (
-        <div className='place-container'>
-            <h4 className='section-title'>Working space</h4>
-            <h3 className='sub-title'>Let's meet our interior room decoration</h3>
+        <div className='container'>
+            <div className='section-header'>
+                <h4 className='section-title'>Working space</h4>
+                <h3 className='sub-title'>Let's meet our interior room decoration</h3>
+            </div>
             <div className='place-img-container'>
                 {/* {
                     services.map((item, index) => {

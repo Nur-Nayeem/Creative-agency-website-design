@@ -1,6 +1,5 @@
 import React from 'react'
 import QustionCard from './QustionCard'
-import "../../css/home-css/FrequentlyAskqn.css"
 const questions = [
     {
         title: "What are the services provided to customers?",
@@ -29,9 +28,11 @@ const questions = [
 const FrequentlyAskqn = () => {
     return (
 
-        <div className='qn-container'>
-            <h4 className='section-title'>Frequently Ask Question</h4>
-            <h3 className='sub-title'>Some of our frequently asked questions</h3>
+        <div className='container'>
+            <div className='section-header'>
+                <h4 className='section-title'>Frequently Ask Question</h4>
+                <h3 className='sub-title'>Some of our frequently asked questions</h3>
+            </div>
 
             <div>
                 {

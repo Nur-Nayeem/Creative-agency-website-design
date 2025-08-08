@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 function CustomerFeedback() {
     return (
-        <div className='feedback-container'>
+        <div className='feedback-container container'>
             <div className='feedback-left-container'>
                 <div className='feedback-card-container feedback-card-container-left'>
                     <div className='feedback-card card-1'>

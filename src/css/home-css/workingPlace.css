@@ -1,21 +1,3 @@
-.place-container {
-    text-align: center;
-    margin: 4rem 0;
-}
-
-
-.place-container .section-title {
-    color: var(--color-tertiary-3);
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.place-container .sub-title {
-    font-size: 3rem;
-    font-weight: 700;
-    margin: 2rem 0;
-}
-
 .place-img-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,11 +44,6 @@
 
 
 @media screen and (max-width: 767.98px) {
-    .place-container .sub-title {
-        font-size: 2rem;
-        font-weight: 600;
-    }
-
     .place-img-container {
         grid-template-columns: repeat(1, 1fr);
     }

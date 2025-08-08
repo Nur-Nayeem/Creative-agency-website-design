@@ -13,9 +13,11 @@ import sp10 from "../../assets/sponsor/philips.jpg"
 
 const SomeGreatCustoSection = () => {
     return (
-        <div className='customer-container'>
-            <h4 className='section-title'>Some of Our Great Customers</h4>
-            <h3 className='sub-title'>Some of the companies we have worked with</h3>
+        <div className='customer-container container'>
+            <div className='section-header'>
+                <h4 className='section-title'>Some of Our Great Customers</h4>
+                <h3 className='sub-title'>Some of the companies we have worked with</h3>
+            </div>
             <div className='customer-img-container'>
 
                 <figure className='img-box'>
