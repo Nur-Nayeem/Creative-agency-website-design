@@ -7,6 +7,7 @@ import CustomerFeedback from '../components/home-components/CustomerFeedback'
 import WorkingPlace from '../components/home-components/WorkingPlace'
 import SomeGreatCustoSection from '../components/home-components/SomeGreatCustoSection'
 import SlidersInfo from '../components/home-components/SliderInfo'
+import FrequentlyAskqn from '../components/home-components/FrequentlyAskqn'
 function Home() {
     return (
         <>
@@ -19,6 +20,7 @@ function Home() {
             <WorkingPlace />
             <SomeGreatCustoSection />
             <SlidersInfo />
+            <FrequentlyAskqn />
         </>
     )
 }

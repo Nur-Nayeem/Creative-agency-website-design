@@ -50,7 +50,7 @@ const Slider = ({ slides }) => {
     }
     return (
         <div className='slideBox'>
-            <FontAwesomeIcon className='leftIcon' icon={faCircleArrowLeft} onClick={previousSLidde} />
+            <FontAwesomeIcon className='icons leftIcon' icon={faCircleArrowLeft} onClick={previousSLidde} />
 
             <div className='middle-content'>
                 <FontAwesomeIcon className='top-icon' icon={faQuoteLeft} />
@@ -74,7 +74,7 @@ const Slider = ({ slides }) => {
                 </div>
 
             </div>
-            <FontAwesomeIcon className='rightIcon' icon={faCircleArrowRight} onClick={nextSlide} />
+            <FontAwesomeIcon className='icons rightIcon' icon={faCircleArrowRight} onClick={nextSlide} />
 
         </div>
     )

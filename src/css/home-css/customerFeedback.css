@@ -46,6 +46,18 @@
     color: var(--color-primary);
 }
 
+.card-2 h2 {
+    color: #FF6800;
+}
+
+.card-3 h2 {
+    color: #FF2D59;
+}
+
+.card-4 h2 {
+    color: #4ADB61;
+}
+
 .feedback-right-container {
     max-width: 600px;
 }
@@ -86,7 +98,8 @@
     }
 
     .feedback-left-container {
-        gap: 16px;
+        flex-direction: column;
+        flex-grow: 1;
     }
 
     .feedback-right-container h2 {
