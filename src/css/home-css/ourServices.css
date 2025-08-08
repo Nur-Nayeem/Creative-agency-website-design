@@ -1,20 +1,17 @@
 .services-container {
     text-align: center;
-    min-width: 320px;
-    max-width: 1440px;
-    margin: 48px auto;
 }
 
-.section-title {
+.services-container .section-title {
     color: var(--color-tertiary-3);
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.sub-title {
+.services-container .sub-title {
     font-size: 3rem;
     font-weight: 700;
-    margin: 60px 0;
+    margin: 2rem 0;
 }
 
 .card-container {
@@ -25,8 +22,9 @@
 }
 
 @media screen and (max-width:1024px) {
-    .sub-title {
+    .services-container .sub-title {
         font-size: 2.7rem;
+        font-weight: 500;
     }
 
     .card-container {
@@ -36,8 +34,9 @@
 }
 
 @media screen and (max-width:767.98px) {
-    .sub-title {
-        font-size: 1.5rem;
+    .services-container .sub-title {
+        font-size: 2rem;
+        font-weight: 600;
     }
 
     .card-container {

@@ -1,11 +1,11 @@
 import React from 'react'
-import hero from '../assets/hero3.png'
-import blueImg from '../assets/1111.png'
-import yellowImg from '../assets/2222.png'
-import '../css/heroSection.css'
+import hero from '../../assets/hero3.png'
+import blueImg from '../../assets/1111.png'
+import yellowImg from '../../assets/2222.png'
+import '../../css/home-css/heroSection.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
-function Hero() {
+const Hero = () => {
     return (
         <section className='hero-container'>
             <div className='hero-left'>

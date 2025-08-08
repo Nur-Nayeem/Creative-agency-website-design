@@ -46,7 +46,7 @@ h1 {
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   :root {
     margin: 0 10px;
   }

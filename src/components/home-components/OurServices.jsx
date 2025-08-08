@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import '../css/ourServices.css'
+import '../../css/home-css/ourServices.css'
 import { faFireFlameSimple, faPenNib, faDesktop, faMobileScreen, faCity, faChartSimple } from '@fortawesome/free-solid-svg-icons';
 
 const services = [
@@ -53,7 +53,7 @@ function OurServices() {
                 {
                     services.map((item, index) => {
                         return (
-                            <Card icon={item.icon} title={item.title} details={item.details} bgColor={item.bgColor} />
+                            <Card key={index} icon={item.icon} title={item.title} details={item.details} bgColor={item.bgColor} />
                         )
                     })
                 }

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 48px;
 }
 
 .hero-left {
@@ -112,6 +113,7 @@
     ;
     max-width: 628.8px;
     z-index: 100;
+    top: 48px;
 }
 
 .layer-box {

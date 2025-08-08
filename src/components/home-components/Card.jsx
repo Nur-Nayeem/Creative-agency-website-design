@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/card.css'
+import '../../css/home-css/card.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 function Card({ icon, title, details, bgColor }) {

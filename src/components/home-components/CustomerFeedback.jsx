@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/customerFeedback.css'
+import '../../css/home-css/customerFeedback.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 function CustomerFeedback() {

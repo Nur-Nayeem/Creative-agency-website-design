@@ -51,7 +51,7 @@
 }
 
 .feedback-right-container h2 {
-    font-size: 56px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -87,6 +87,11 @@
 
     .feedback-left-container {
         gap: 16px;
+    }
+
+    .feedback-right-container h2 {
+        font-size: 2rem;
+        font-weight: 600;
     }
 
     .feedback-card {

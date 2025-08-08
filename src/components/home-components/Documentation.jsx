@@ -1,11 +1,11 @@
 import React from 'react'
-import '../css/documentation.css'
-import videoImg from '../assets/video.png'
-function Documentation() {
+import '../../css/home-css/documentation.css'
+import videoImg from '../../assets/video.png'
+const Documentation = () => {
     return (
         <div>
             <div className='documentation-container'>
-                <h4 className='section-title'>Our Services</h4>
+                <h4 className='section-title'>Our Documentation</h4>
                 <h3 className='sub-title'>The various services we provide to make your business more powerful</h3>
                 <figure className='video-box'>
                     <img src={videoImg} alt="" />
@@ -16,4 +16,4 @@ function Documentation() {
     )
 }
 
-export default Documentation
+export default Documentation;
