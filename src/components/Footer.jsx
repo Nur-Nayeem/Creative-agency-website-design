@@ -42,8 +42,6 @@ const Footer = () => {
                 <div className='socials'>
                     <div>
                         <FontAwesomeIcon icon={faFacebookF} />
-
-
                     </div>
                     <div>
                         <FontAwesomeIcon icon={faInstagram} />

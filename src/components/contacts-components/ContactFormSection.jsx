@@ -45,7 +45,7 @@ const ContactFormSection = () => {
                         </div>
                     </label>
                 </form>
-                <button className='btn-primary contact-section-btn'>
+                <button className='btn-primary'>
                     Let's Talk
                     <span className='arrow-icon'><FontAwesomeIcon icon={faArrowRight} /></span>
                 </button>

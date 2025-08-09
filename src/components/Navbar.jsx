@@ -2,15 +2,20 @@ import React, { useState } from 'react'
 import '../css/navSection.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Navbar() {
     const [showMenu, setShowMenu] = useState(false);
+    const navigate = useNavigate();
     const handleManueBar = () => {
         setShowMenu(true)
     }
     const handleCloseMenu = () => {
         setShowMenu(false)
+    }
+
+    const handleContact = () => {
+        navigate('/contact');
     }
     return (
         <nav className='nav-section'>
@@ -32,7 +37,7 @@ function Navbar() {
                         <li><Link to="/works">Works</Link></li>
                         <li><Link to="/about">About</Link></li>
                     </div>
-                    <button className='btn-primary hide-btn'>Contant us</button>
+                    <button className='btn-primary hide-btn' onClick={handleContact}>Contant us</button>
                 </div>
 
             </ul>
@@ -40,7 +45,7 @@ function Navbar() {
                 <FontAwesomeIcon className='menu' icon={faBars}
                 />
             </button>
-            <button className='btn-primary contct-btn'>Contant us</button>
+            <button className='btn-primary contct-btn' onClick={handleContact}>Contant us</button>
         </nav>
     )
 }
