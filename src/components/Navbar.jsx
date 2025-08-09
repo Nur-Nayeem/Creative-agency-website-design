@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../css/navSection.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [showMenu, setShowMenu] = useState(false);
@@ -17,12 +18,23 @@ function Navbar() {
                 <h2>C</h2>
             </div>
             <ul className={`nav-items ${showMenu ? 'nav-items-active' : ''}`}>
-                <button className='menue-bar cross-icon-btn' onClick={handleCloseMenu}>
-                    <FontAwesomeIcon className='menu-cross-icon' icon={faXmark} />
-                </button>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#about">About</a></li>
+                <div className='side-menu-top-bar'>
+                    <div className='logo-container hide-logo'>
+                        <h2>C</h2>
+                    </div>
+                    <button className='menue-bar' onClick={handleCloseMenu}>
+                        <FontAwesomeIcon className='menu-cross-icon' icon={faXmark} />
+                    </button>
+                </div>
+                <div className='side-nav'>
+                    <div className='div-inside-ul'>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/works">Works</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                    </div>
+                    <button className='btn-primary hide-btn'>Contant us</button>
+                </div>
+
             </ul>
             <button className='menue-bar' onClick={handleManueBar}>
                 <FontAwesomeIcon className='menu' icon={faBars}
