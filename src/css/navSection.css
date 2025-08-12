@@ -54,12 +54,21 @@
 
 @media screen and (max-width: 768px) {
 
+    .nav-section {
+        z-index: 1500;
+        background-color: aliceblue;
+        padding-bottom: 6px;
+        position: sticky;
+        top: 0;
+    }
+
     .side-menu-top-bar {
         display: flex;
         position: absolute;
         top: 40px;
         width: calc(100% - 20px);
         justify-content: space-between;
+
     }
 
     .nav-items {
@@ -72,7 +81,9 @@
         left: -100%;
         align-items: center;
         padding-top: 100px;
-        background: white;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
         z-index: 2000;
         transition: left 0.35s ease;
     }
@@ -125,6 +136,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .side-nav li a {
+        color: #00113B;
     }
 
 }
